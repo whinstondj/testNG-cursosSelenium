@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="14" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite de Pruebas" duration-ms="231" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+    <groups>
+      <group name="functional">
+        <method signature="AnotacionesBasicas.pruebaUno()[pri:0, instance:anotacionestestng.AnotacionesBasicas@480bdb19]" name="pruebaUno" class="anotacionestestng.AnotacionesBasicas"/>
+        <method signature="SegundoSet.clicAlCarrito(java.lang.String,java.lang.String)[pri:0, instance:anotacionestestng.SegundoSet@7e2d773b]" name="clicAlCarrito" class="anotacionestestng.SegundoSet"/>
+        <method signature="TercerSet.tercerSetPruebaTres()[pri:0, instance:anotacionestestng.TercerSet@27f723]" name="tercerSetPruebaTres" class="anotacionestestng.TercerSet"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="TercerSet.tercerSetPruebaDos()[pri:0, instance:anotacionestestng.TercerSet@27f723]" name="tercerSetPruebaDos" class="anotacionestestng.TercerSet"/>
+        <method signature="TercerSet.tercerSetPruebaTres()[pri:0, instance:anotacionestestng.TercerSet@27f723]" name="tercerSetPruebaTres" class="anotacionestestng.TercerSet"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Casos de Prueba Anotaciones" duration-ms="137" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+      <class name="anotacionestestng.AnotacionesBasicas">
+        <test-method status="PASS" signature="antesSetTest()[pri:0, instance:anotacionestestng.AnotacionesBasicas@480bdb19]" name="antesSetTest" is-config="true" duration-ms="1" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- antesSetTest -->
+        <test-method status="PASS" signature="codigoAntesClase()[pri:0, instance:anotacionestestng.AnotacionesBasicas@480bdb19]" name="codigoAntesClase" is-config="true" duration-ms="0" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- codigoAntesClase -->
+        <test-method status="PASS" signature="antesDelMetodo()[pri:0, instance:anotacionestestng.AnotacionesBasicas@480bdb19]" name="antesDelMetodo" is-config="true" duration-ms="1" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- antesDelMetodo -->
+        <test-method status="PASS" signature="pruebaUno()[pri:0, instance:anotacionestestng.AnotacionesBasicas@480bdb19]" name="pruebaUno" duration-ms="8" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruebaUno -->
+        <test-method status="PASS" signature="despuesDelMetodo()[pri:0, instance:anotacionestestng.AnotacionesBasicas@480bdb19]" name="despuesDelMetodo" is-config="true" duration-ms="1" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- despuesDelMetodo -->
+        <test-method status="PASS" signature="antesDelMetodo()[pri:0, instance:anotacionestestng.AnotacionesBasicas@480bdb19]" name="antesDelMetodo" is-config="true" duration-ms="0" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- antesDelMetodo -->
+        <test-method status="PASS" signature="pruebaDos()[pri:0, instance:anotacionestestng.AnotacionesBasicas@480bdb19]" name="pruebaDos" duration-ms="1" started-at="2021-09-06T17:05:52 COT" depends-on-methods="anotacionestestng.AnotacionesBasicas.pruebaUno" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruebaDos -->
+        <test-method status="PASS" signature="despuesDelMetodo()[pri:0, instance:anotacionestestng.AnotacionesBasicas@480bdb19]" name="despuesDelMetodo" is-config="true" duration-ms="0" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- despuesDelMetodo -->
+        <test-method status="PASS" signature="codigoDespuesClase()[pri:0, instance:anotacionestestng.AnotacionesBasicas@480bdb19]" name="codigoDespuesClase" is-config="true" duration-ms="0" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- codigoDespuesClase -->
+        <test-method status="PASS" signature="despuesSetTest()[pri:0, instance:anotacionestestng.AnotacionesBasicas@480bdb19]" name="despuesSetTest" is-config="true" duration-ms="1" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- despuesSetTest -->
+      </class> <!-- anotacionestestng.AnotacionesBasicas -->
+      <class name="anotacionestestng.SegundoSet">
+        <test-method status="PASS" signature="clicAlCarrito(java.lang.String,java.lang.String)[pri:0, instance:anotacionestestng.SegundoSet@7e2d773b]" name="clicAlCarrito" duration-ms="2" started-at="2021-09-06T17:05:52 COT" data-provider="getData" finished-at="2021-09-06T17:05:52 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Camisa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$10,00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicAlCarrito -->
+        <test-method status="PASS" signature="clicAlCarrito(java.lang.String,java.lang.String)[pri:0, instance:anotacionestestng.SegundoSet@7e2d773b]" name="clicAlCarrito" duration-ms="6" started-at="2021-09-06T17:05:52 COT" data-provider="getData" finished-at="2021-09-06T17:05:52 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pantalon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$12,00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicAlCarrito -->
+        <test-method status="PASS" signature="clicAlCarrito(java.lang.String,java.lang.String)[pri:0, instance:anotacionestestng.SegundoSet@7e2d773b]" name="clicAlCarrito" duration-ms="4" started-at="2021-09-06T17:05:52 COT" data-provider="getData" finished-at="2021-09-06T17:05:52 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Falda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$14,00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicAlCarrito -->
+        <test-method status="PASS" signature="clicAlHomePage()[pri:0, instance:anotacionestestng.SegundoSet@7e2d773b]" name="clicAlHomePage" duration-ms="2" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicAlHomePage -->
+        <test-method status="PASS" signature="clicAlUsuario(java.lang.String,java.lang.String)[pri:0, instance:anotacionestestng.SegundoSet@7e2d773b]" name="clicAlUsuario" duration-ms="3" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Administrator]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicAlUsuario -->
+        <test-method status="FAIL" signature="pruebaCinco()[pri:0, instance:anotacionestestng.SegundoSet@7e2d773b]" name="pruebaCinco" duration-ms="6" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at anotacionestestng.SegundoSet.pruebaCinco(SegundoSet.java:21)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruebaCinco -->
+        <test-method status="PASS" signature="pruebaTres()[pri:0, instance:anotacionestestng.SegundoSet@7e2d773b]" name="pruebaTres" duration-ms="3" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruebaTres -->
+        <test-method status="PASS" signature="pruebaCuatro()[pri:0, instance:anotacionestestng.SegundoSet@7e2d773b]" name="pruebaCuatro" duration-ms="2" started-at="2021-09-06T17:05:52 COT" depends-on-methods="anotacionestestng.SegundoSet.pruebaTres" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruebaCuatro -->
+      </class> <!-- anotacionestestng.SegundoSet -->
+    </test> <!-- Casos de Prueba Anotaciones -->
+    <test name="Casos de Pruebas Nuevos" duration-ms="23" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+      <class name="anotacionestestng.AnotacionesBasicas">
+        <test-method status="PASS" signature="codigoAntesSuite()[pri:0, instance:anotacionestestng.AnotacionesBasicas@480bdb19]" name="codigoAntesSuite" is-config="true" duration-ms="16" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- codigoAntesSuite -->
+        <test-method status="PASS" signature="codigoDespuesSuite()[pri:0, instance:anotacionestestng.AnotacionesBasicas@480bdb19]" name="codigoDespuesSuite" is-config="true" duration-ms="1" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- codigoDespuesSuite -->
+      </class> <!-- anotacionestestng.AnotacionesBasicas -->
+      <class name="anotacionestestng.TercerSet">
+        <test-method status="FAIL" signature="tercerSetPruebaCuatro()[pri:0, instance:anotacionestestng.TercerSet@27f723]" name="tercerSetPruebaCuatro" duration-ms="1" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at anotacionestestng.TercerSet.tercerSetPruebaCuatro(TercerSet.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tercerSetPruebaCuatro -->
+        <test-method status="PASS" signature="tercerSetPruebaDos()[pri:0, instance:anotacionestestng.TercerSet@27f723]" name="tercerSetPruebaDos" duration-ms="2" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tercerSetPruebaDos -->
+        <test-method status="PASS" signature="tercerSetPruebaTres()[pri:0, instance:anotacionestestng.TercerSet@27f723]" name="tercerSetPruebaTres" duration-ms="1" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tercerSetPruebaTres -->
+        <test-method status="PASS" signature="tercerSetPruebaUno()[pri:0, instance:anotacionestestng.TercerSet@27f723]" name="tercerSetPruebaUno" duration-ms="2" started-at="2021-09-06T17:05:52 COT" finished-at="2021-09-06T17:05:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tercerSetPruebaUno -->
+      </class> <!-- anotacionestestng.TercerSet -->
+    </test> <!-- Casos de Pruebas Nuevos -->
+  </suite> <!-- Suite de Pruebas -->
+</testng-results>
